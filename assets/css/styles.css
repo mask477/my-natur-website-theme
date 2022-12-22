@@ -108,6 +108,9 @@ body {
 }
 
 /* Navbar */
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: var(--light-blue);
+}
 .navbar .btn {
   width: 124px;
   padding-block: 10px;
@@ -188,7 +191,7 @@ section {
   position: relative;
   display: flex;
   flex-direction: row;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 section .title {
   font-size: 48px;
@@ -202,20 +205,20 @@ section .description {
 /* Hero Section */
 section#hero {
   /* min-height: 100vh; */
+  position: relative;
   background-color: var(--light-bg-color);
 }
-section#hero .hero-container h1 {
+section#hero h1.title {
   font-style: normal;
-  font-weight: bold;
   font-size: 64px;
   line-height: 76px;
   text-transform: capitalize;
   color: #383b46;
 }
-section#hero .hero-container h1 span {
+section#hero h1 span {
   color: var(--light-blue) !important;
 }
-section#hero .hero-container p {
+section#hero p.description {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
@@ -224,7 +227,7 @@ section#hero .hero-container p {
 section#hero .banner-container {
   position: relative;
 }
-section#hero .banner-container .backdrop {
+section#hero .backdrop {
   position: absolute;
   width: 100%;
   height: 860px;
@@ -567,6 +570,120 @@ section#contact .contact-form {
 }
 /* End of Contact */
 
+/* Product Hero */
+section#product-hero {
+  background-color: var(--light-bg-color);
+  height: calc(100vh - 60px);
+  padding-block: 0px;
+}
+section#product-hero h1.title {
+  font-weight: normal;
+}
+section#product-hero h1.title span {
+  font-weight: bold;
+}
+section#product-hero p.description {
+  font-weight: bold;
+}
+
+section#product-hero .backdrop {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  right: 0;
+  top: -120px;
+  border-radius: 0px 0px 0px 170px;
+  background: url(/assets/images/product-herro-backdrop.jpg)
+    rgba(255, 255, 255, 0.3);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* background: linear-gradient(216.04deg, #0071b9 13.84%, #002f4d 83.53%); */
+
+  z-index: 0;
+}
+section#product-hero .container {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* End of Product Hero */
+
+/* Product Features */
+section#product-features {
+  background-color: var(--light-bg-color);
+}
+section#product-features .feature {
+  margin-block: 120px;
+}
+section#product-features .feature .feature-image-container {
+  padding: 10px;
+}
+section#product-features .feature .feature-image-container .feature-image {
+  background: var(--primary-text-gray);
+  border-radius: 20px;
+  height: 50vh;
+}
+section#product-features .feature .feature-content {
+  padding-top: 80px;
+}
+section#product-features .feature h3.feature-title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+section#product-features .feature p.feature-description {
+  font-size: 24px;
+}
+/* End of Product Features */
+
+/* Feature Blocks */
+section#feature-blocks {
+  background-color: var(--light-bg-color);
+}
+section#feature-blocks h1.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+section#feature-blocks p.description {
+  margin-bottom: 40px;
+}
+section#feature-blocks .feature-block {
+  padding: 20px;
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+section#feature-blocks .feature-block .feature-block-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: var(--primary-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+section#feature-blocks .feature-block h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+section#feature-blocks .feature-block p {
+  font-size: 16px;
+  text-align: center;
+}
+/* End of Feature Blocks */
+
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {
   section#hero .hero-container {
@@ -585,11 +702,15 @@ section#contact .contact-form {
   section#hero .row {
     flex-wrap: wrap-reverse;
   }
-  section#hero .banner-container .backdrop {
+  section#hero .backdrop {
     display: none;
   }
   section#features .row {
     flex-wrap: wrap-reverse;
+  }
+
+  section#product-features .feature .feature-content {
+    padding-top: 40px;
   }
 }
 @media (min-width: 992px) {

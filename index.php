@@ -9,8 +9,8 @@ include('header.php');
       class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center"
     >
       <div class="hero-container">
-        <h1>live with the <span>planet</span> in mind</h1>
-        <p>
+        <h1 class="title">live with the <span>planet</span> in mind</h1>
+        <p class="description">
           Track, reduce and offset the emissions of everything you consume
         </p>
         <button type="button" class="btn btn-rounded btn-icon btn-primary">

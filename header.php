@@ -45,7 +45,7 @@
             >
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Product</a>
+            <a href="/product.php" class="nav-link">Product</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Blogs</a>
