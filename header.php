@@ -57,7 +57,7 @@
               <a href="/contact.php" class="nav-link">Contact</a>
             </li>
           </ul>
-          <div class="d-flex justify-content-center align-items-center">
+          <div class="nav-button-group">
             <button class="btn btn-rounded btn-light my-2 my-sm-0 mx-2" type="button">
               Sign Up
             </button>
