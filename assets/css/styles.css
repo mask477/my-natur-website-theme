@@ -17,15 +17,21 @@ button {
 }
 
 :root {
-  --primary-text-color: #0a0d0f;
   --primary-light: #dcf2ed;
   --primary-green: #b8e4da;
   --primary-blue: #004f80;
-  --primary-text-gray: #7891a1;
   --light-bg-color: #fafafa;
   --dark-bg-color: #002f4d;
+  --primary-text-color: #0a0d0f;
+  --primary-text-gray: #7891a1;
+  --primary-text-gray60: #5e7787;
   --dark-text-color: #383b46;
   --light-blue: #008ee6;
+}
+
+body {
+  background-color: var(--light-bg-color);
+  margin: 0px;
 }
 
 .bg-primary-dark {
@@ -99,12 +105,6 @@ button {
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 30px;
-}
-
-body {
-  background-color: white !important;
-  margin: 0px;
-  background-color: var(--light-bg-color);
 }
 
 /* Navbar */
@@ -231,9 +231,7 @@ section.splide .splide-btn {
 
 /* Hero Section */
 section#hero {
-  /* min-height: 100vh; */
   position: relative;
-  background-color: var(--light-bg-color);
 }
 section#hero h1.title {
   font-style: normal;
@@ -288,7 +286,6 @@ section#hero .banner-container .container img:after {
 
 /* Clients Section */
 section#clients {
-  background-color: var(--light-bg-color);
   padding-block: 50px;
 }
 
@@ -308,7 +305,6 @@ section#clients .client {
 
 /* Features Section */
 section#features {
-  background-color: var(--light-bg-color);
 }
 section#features .title {
   font-size: 32px;
@@ -394,6 +390,7 @@ section#features .feature .feature-description {
 
 /* Goals Section */
 section#goals {
+  background: white;
 }
 section#goals .title {
   color: var(--primary-text-gray);
@@ -419,6 +416,9 @@ section#goals .goal .goal-title {
 /* End of Goals Section */
 
 /* Members Section */
+section#members {
+  background: white;
+}
 section#members .title {
   font-size: 32px;
 }
@@ -454,7 +454,6 @@ section#members .member p.member-comment {
 
 /* Public Work Section */
 section#public-work {
-  background-color: var(--light-bg-color);
   text-align: center;
 }
 
@@ -535,7 +534,6 @@ section#change .container .get-started {
 
 /* Contact Section */
 section#contact {
-  background-color: var(--light-bg-color);
 }
 section#contact .title {
   font-size: 32px;
@@ -602,7 +600,6 @@ section#contact .contact-form {
 
 /* Product Hero Section */
 section#product-hero {
-  background-color: var(--light-bg-color);
   height: calc(100vh - 60px);
   padding-block: 0px;
 }
@@ -642,7 +639,6 @@ section#product-hero .container {
 
 /* Product Features Section */
 section#product-features {
-  background-color: var(--light-bg-color);
 }
 section#product-features .feature {
   margin-block: 120px;
@@ -670,7 +666,6 @@ section#product-features .feature p.feature-description {
 
 /* Feature Blocks Section */
 section#feature-blocks {
-  background-color: var(--light-bg-color);
 }
 section#feature-blocks h1.title {
   font-size: 32px;
@@ -736,7 +731,6 @@ section#about-hero p.description {
 
 /* About Mission Section */
 section#about-mission {
-  background-color: var(--light-bg-color);
 }
 section#about-mission .container .row {
   margin-bottom: 30px;
@@ -758,7 +752,6 @@ section#about-mission .content-container {
 
 /* About Our Mission Section */
 section#about-our-mission {
-  background-color: var(--light-bg-color);
 }
 section#about-our-mission h1.title {
   font-size: 56px;
@@ -776,6 +769,7 @@ section#about-our-mission p.description span {
 
 /* About Founders Section */
 section#about-founders {
+  background: white;
 }
 section#about-founders h1.title {
   font-size: 48px;
@@ -855,9 +849,6 @@ section#about-founders .founder:hover .founder-description {
 
 /* About Team Section */
 section#about-team {
-  /* justify-content: center;
-  align-items: center; */
-  background: var(--light-bg-color);
 }
 
 section#about-team h1.title {
@@ -982,7 +973,6 @@ section#about-projects .project p.project-message {
 
 /* Foundation Hero Section */
 section#foundation-hero {
-  background-color: var(--light-bg-color);
   height: calc(100vh - 60px);
   padding-block: 0px;
 }
@@ -1098,9 +1088,116 @@ section#foundation-organizations .organization .organization-type {
 }
 section#foundation-organizations .organization .organization-description {
   font-size: 16px;
-  /* color: var(--) */
+  color: var(--primary-text-gray60);
 }
 /* End of Foundation Organizations Section */
+
+/* Blogs Hero Section */
+section#blogs-hero {
+  position: relative;
+  overflow: visible;
+  height: 500px;
+}
+section#blogs-hero .container {
+  margin: auto;
+}
+section#blogs-hero .banner {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 700px;
+  background-blend-mode: screen !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  z-index: 0;
+}
+/* End of Blogs Hero Section*/
+
+/* Blogs */
+section#blogs {
+}
+
+section#blogs .blog {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+}
+section#blogs .blog .blog-thumnail-container {
+  position: relative;
+  width: 100%;
+  height: 215px;
+}
+section#blogs .blog .blog-thumnail {
+  object-fit: cover;
+}
+section#blogs .blog .blog-thumnail-container .blog-category {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: var(--light-bg-color);
+  color: var(--primary-text-gray);
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+section#blogs .blog .blog-body {
+  padding: 24px;
+}
+
+section#blogs .blog .blog-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+section#blogs .blog .blog-content {
+  font-weight: 400;
+  font-size: 16px;
+}
+section#blogs .blog .blog-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#blogs .blog-author {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+section#blogs .blog-author .blog-author-image {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+section#blogs .blog-author .blog-author-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+section#blogs .blog-author .blog-author-name {
+  font-weight: 500px;
+  font-size: 16px;
+}
+section#blogs .blog-author .blog-author-date {
+  font-weight: 500px;
+  font-size: 16px;
+  color: var(--primary-text-gray);
+}
+section#blogs .blog-readmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* End of Blogs */
 
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {
