@@ -11,7 +11,7 @@
       </div>
     </div>
   </div>
-  <div class="backdrop"></div>
+  <div class="backdrop" style="background: url(/assets/images/foundation-hero-bg.jpg) rgba(255, 255, 255, 0.2);"></div>
 </section>
 <!-- End of Foundation Hero -->
 

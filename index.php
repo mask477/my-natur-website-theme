@@ -335,7 +335,7 @@ include('header.php');
 <!-- End of Customers -->
 
 <!-- Change -->
-<section id="change">
+<section id="change" style="background: url(/assets/images/change-section-bg.jpg) rgba(255, 255, 255, 0.3);">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">

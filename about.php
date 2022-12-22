@@ -3,7 +3,7 @@
 ?>
 
 <!-- About Hero -->
-<section id="about-hero">
+<section id="about-hero" style="background: url(/assets/images/about-hero-bg.jpg) rgba(0, 0, 0, 0.3);">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">

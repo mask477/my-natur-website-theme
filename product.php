@@ -11,7 +11,7 @@ include('header.php');
       </div>
     </div>
   </div>
-  <div class="backdrop"></div>
+  <div class="backdrop" style="background: url(/assets/images/product-hero-backdrop.jpg); rgba(255, 255, 255, 0.3);"></div>
 </section>
 <!-- End of Product Hero -->
 

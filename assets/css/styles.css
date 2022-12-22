@@ -522,12 +522,11 @@ section#customers .customer .customer-designation {
 
 /* Change Section */
 section#change {
-  background: url(/assets/images/change-section-bg.jpg) rgba(255, 255, 255, 0.3);
-  background-blend-mode: screen;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-blend-mode: screen !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 section#change .container .get-started {
   margin-top: 100px;
@@ -627,12 +626,10 @@ section#product-hero .backdrop {
   right: 0;
   top: -120px;
   border-radius: 0px 0px 0px 170px;
-  background: url(/assets/images/product-herro-backdrop.jpg)
-    rgba(255, 255, 255, 0.3);
-  background-blend-mode: screen;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-blend-mode: screen !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
   z-index: 0;
 }
 section#product-hero .container {
@@ -718,11 +715,10 @@ section#feature-blocks .feature-block p {
 /* About Hero Section */
 section#about-hero {
   padding-block: 200px;
-  background: url(/assets/images/about-hero-bg.jpg);
-  background-blend-mode: screen;
-  background-repeat: no-repeat;
-  background-position: 0% 35%;
-  background-size: cover;
+  background-blend-mode: overlay !important;
+  background-repeat: no-repeat !important;
+  background-position: 0% 35% !important;
+  background-size: cover !important;
 }
 
 section#about-hero h1.title {
@@ -1010,12 +1006,10 @@ section#foundation-hero .backdrop {
   right: 0;
   top: -120px;
   border-radius: 0px 0px 0px 170px;
-  background: url(/assets/images/foundation-hero-bg.jpg)
-    rgba(255, 255, 255, 0.2);
-  background-blend-mode: screen;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-blend-mode: screen !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
   z-index: 0;
 }
 section#foundation-hero .container {
