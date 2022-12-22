@@ -398,7 +398,7 @@ section#members .member p.member-comment {
 }
 /* End of Members Section */
 
-/* Public Work */
+/* Public Work Section */
 section#public-work {
   background-color: var(--light-bg-color);
   text-align: center;
@@ -424,9 +424,9 @@ section#public-work .work .work-title {
 section#public-work .work .work-title {
   font-size: 16px;
 }
-/* End of Public Work */
+/* End of Public Work Section */
 
-/* Customers */
+/* Customers Section */
 section#customers {
   background-color: var(--dark-bg-color);
 }
@@ -460,7 +460,21 @@ section#customers .customer .customer-name {
 section#customers .customer .customer-designation {
   font-size: 16px;
 }
-/* End of Customers */
+/* End of Customers Section */
+
+/* Change Section */
+section#change {
+  background: url(/assets/images/change-section-bg.jpg) rgba(255, 255, 255, 0.3);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+section#change .container .get-started {
+  margin-top: 100px;
+}
+/* End of Change Section */
 
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {
