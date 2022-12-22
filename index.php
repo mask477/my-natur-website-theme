@@ -15,25 +15,7 @@ include('header.php');
         </p>
         <button type="button" class="btn btn-rounded btn-icon btn-primary">
           <span>Get Started</span>
-          <span
-            role="img"
-            aria-label="right-circle"
-            class="anticon anticon-right-circle"
-          >
-            <svg
-              viewBox="64 64 896 896"
-              focusable="false"
-              data-icon="right-circle"
-              width="1em"
-              height="1em"
-              fill="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm154.7 454.5l-246 178c-5.3 3.8-12.7 0-12.7-6.5v-46.9c0-10.2 4.9-19.9 13.2-25.9L566.6 512 421.2 406.8c-8.3-6-13.2-15.6-13.2-25.9V334c0-6.5 7.4-10.3 12.7-6.5l246 178c4.4 3.2 4.4 9.8 0 13z"
-              ></path>
-            </svg>
-          </span>
+          <ion-icon name="arrow-forward-circle"></ion-icon>
         </button>
       </div>
     </div>
@@ -87,7 +69,9 @@ include('header.php');
         <div class="row">
           <div class="col-md-6 col-sm-12">
             <div class="feature">
-              <div class="feature-icon"></div>
+              <div class="feature-icon">
+                <ion-icon name="footsteps"></ion-icon>
+              </div>
               <h3 class="feature-title">
                 Calculate your carbon foorprint.
               </h3>
@@ -99,37 +83,40 @@ include('header.php');
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="feature">
-              <div class="feature-icon"></div>
+              <div class="feature-icon">
+                <ion-icon name="heart"></ion-icon>
+              </div>
               <h3 class="feature-title">
-                Calculate your carbon foorprint.
+                Start a monthly subscription to fund climate solutions.
               </h3>
               <p class="feature-description">
-                Use our intuitive calculator to find out how much CO2 you
-                emit.
+                Maximise your impacty by funding the climage solutions our planet needs.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="feature">
-              <div class="feature-icon"></div>
+              <div class="feature-icon">
+                <ion-icon name="leaf"></ion-icon>
+              </div>
               <h3 class="feature-title">
-                Calculate your carbon foorprint.
+                See your impact grow every month.
               </h3>
               <p class="feature-description">
-                Use our intuitive calculator to find out how much CO2 you
-                emit.
+                Receive updates that show how you're making a positive impact on the climate.
               </p>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="feature">
-              <div class="feature-icon"></div>
+              <div class="feature-icon">
+                <ion-icon name="arrow-undo"></ion-icon>
+              </div>
               <h3 class="feature-title">
-                Calculate your carbon foorprint.
+                Offset yout carbon emissions whnever you spend.
               </h3>
               <p class="feature-description">
-                Use our intuitive calculator to find out how much CO2 you
-                emit.
+                Connect your bank account and see your CO2 emissions against your spending
               </p>
             </div>
           </div>
@@ -139,26 +126,7 @@ include('header.php');
         <div class="image-container">
           <div class="stat">
             <div class="stat-icon">
-              <span
-                role="img"
-                aria-label="rise"
-                color="#002F4D"
-                class="anticon anticon-rise"
-              >
-                <svg
-                  viewBox="64 64 896 896"
-                  focusable="false"
-                  data-icon="rise"
-                  width="1em"
-                  height="1em"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M917 211.1l-199.2 24c-6.6.8-9.4 8.9-4.7 13.6l59.3 59.3-226 226-101.8-101.7c-6.3-6.3-16.4-6.2-22.6 0L100.3 754.1a8.03 8.03 0 000 11.3l45 45.2c3.1 3.1 8.2 3.1 11.3 0L433.3 534 535 635.7c6.3 6.2 16.4 6.2 22.6 0L829 364.5l59.3 59.3a8.01 8.01 0 0013.6-4.7l24-199.2c.7-5.1-3.7-9.5-8.9-8.8z"
-                  ></path>
-                </svg>
-              </span>
+              <ion-icon name="trending-up"></ion-icon>
             </div>
             <div class="stat-content">
               <div class="stat-title">230K+</div>
@@ -167,26 +135,7 @@ include('header.php');
           </div>
           <div class="stat">
             <div class="stat-icon">
-              <span
-                role="img"
-                aria-label="check"
-                color="#002F4D"
-                class="anticon anticon-check"
-              >
-                <svg
-                  viewBox="64 64 896 896"
-                  focusable="false"
-                  data-icon="check"
-                  width="1em"
-                  height="1em"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M912 190h-69.9c-9.8 0-19.1 4.5-25.1 12.2L404.7 724.5 207 474a32 32 0 00-25.1-12.2H112c-6.7 0-10.4 7.7-6.3 12.9l273.9 347c12.8 16.2 37.4 16.2 50.3 0l488.4-618.9c4.1-5.1.4-12.8-6.3-12.8z"
-                  ></path>
-                </svg>
-              </span>
+              <ion-icon name="checkmark"></ion-icon>
             </div>
             <div class="stat-content">
               <div class="stat-title">$3M+</div>
@@ -327,8 +276,12 @@ include('header.php');
         <p class="description">Listen to what they say about our product offering right here</p>
       </div>
       <div class="col-lg-3 col-sm-12 d-flex justify-content-end align-items-center">
-          <button class="btn btn-circle btn-white mr-4"><-</button>
-          <button class="btn btn-circle btn-white">-></button>
+          <button class="btn btn-circle btn-white mr-4 customers-btn">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </button>
+          <button class="btn btn-circle btn-white customers-btn">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </button>
       </div>
       <div class="col-12">
         <div class="row">

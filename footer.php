@@ -64,6 +64,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="/assets/js/app.js"></script>
+    <!-- Ionicon Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- End of Scripts -->
   </body>
 </html>

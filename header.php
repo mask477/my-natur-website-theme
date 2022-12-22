@@ -22,7 +22,7 @@
       class="navbar navbar-expand-lg navbar-dark bg-primary-dark"
       id="navbar_top"
     >
-      <a class="navbar-brand" href="#"
+      <a class="navbar-brand" href="/"
         ><img src="/assets/logo/logo.svg" alt=""
       /></a>
       <button
