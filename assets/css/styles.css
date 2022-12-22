@@ -86,6 +86,10 @@ button {
   box-shadow: 0 2px 0 rgb(3 49 61 / 33%);
 }
 
+.form-control {
+  padding: 18px 15px;
+}
+
 body {
   background-color: white !important;
   margin: 0px;
@@ -475,6 +479,12 @@ section#change .container .get-started {
   margin-top: 100px;
 }
 /* End of Change Section */
+
+/* Contact */
+section#contact {
+  background-color: var(--light-bg-color);
+}
+/* End of Contact */
 
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {
