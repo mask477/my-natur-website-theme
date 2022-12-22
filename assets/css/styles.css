@@ -289,11 +289,11 @@ section#hero .banner-container .container img:after {
 /* Clients Section */
 section#clients {
   background-color: var(--light-bg-color);
-  padding-block: 20px;
+  padding-block: 50px;
 }
 
 section#clients h2.title {
-  margin-bottom: 20px;
+  margin-block: 20px;
   font-size: 24px;
 }
 
@@ -462,6 +462,7 @@ section#public-work .work {
   padding: 20px;
   background: white;
   border-radius: 24px;
+  text-align: center;
 }
 section#public-work .work .work-image {
   width: 55px;
@@ -983,7 +984,7 @@ section#about-projects .project p.project-message {
 }
 /* End of Projects Section */
 
-/* Fouindation Hero Section */
+/* Foundation Hero Section */
 section#foundation-hero {
   background-color: var(--light-bg-color);
   height: calc(100vh - 60px);
@@ -1023,7 +1024,89 @@ section#foundation-hero .container {
   flex-direction: column;
   justify-content: center;
 }
-/* End of Fouindation Hero Section */
+/* End of Foundation Hero Section */
+
+/* Foundation Approach Section */
+section#foundation-approach {
+  background: var(--light-bg-color);
+}
+section#foundation-approach .approach {
+  padding: 20px;
+  background: white;
+  border-radius: 24px;
+  text-align: center;
+}
+section#foundation-approach .approach .approach-image {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #ff7117;
+  margin: auto;
+  margin-bottom: 30px;
+}
+section#foundation-approach .approach .approach-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+section#foundation-approach .approach .approach-title {
+  font-size: 16px;
+}
+/* End of Foundation Approach Section */
+
+/* Foundation Organizations Section */
+section#foundation-organizations {
+  background-color: var(--dark-bg-color);
+}
+section#foundation-organizations .row {
+  margin-bottom: 30px;
+}
+section#foundation-organizations h1.title {
+  color: white;
+}
+section#foundation-organizations .organization {
+  background-color: white;
+  width: 90%;
+  padding: 24px;
+  border-radius: 8px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+section#foundation-organizations .organization .organization-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+section#foundation-organizations .organization .organization-icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--primary-green);
+  border-radius: 8px;
+  margin-right: 10px;
+}
+section#foundation-organizations .organization .organization-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}
+section#foundation-organizations .organization .organization-type-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-block: 10px;
+}
+section#foundation-organizations .organization .organization-type {
+  background: var(--light-bg-color);
+  border-radius: 48px;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--primary-text-gray);
+}
+section#foundation-organizations .organization .organization-description {
+  font-size: 16px;
+  /* color: var(--) */
+}
+/* End of Foundation Organizations Section */
 
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {

@@ -115,4 +115,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
     projectsSlider.mount();
   }
+
+  if (document.getElementById("foundation-organizations")) {
+    // Organization slider
+    var organizationsSlider = new Splide("#foundation-organizations", {
+      type: "loop",
+      drag: "free",
+      snap: true,
+      perPage: 3,
+      perMove: 1,
+      breakpoints: {
+        1260: {
+          perPage: 2,
+        },
+        850: {
+          perPage: 1,
+        },
+      },
+      arrows: true,
+      pagination: false,
+    });
+
+    organizationsSlider.mount();
+  }
 });
