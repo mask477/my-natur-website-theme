@@ -21,7 +21,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-dark" id="navbar_top">
-      <div class="container">
+      <!-- <div class="container"> -->
         <a class="navbar-brand" href="/">
           <img src="/assets/logo/logo.svg" alt=""/>
         </a>
@@ -57,16 +57,16 @@
               <a href="/contact.php" class="nav-link">Contact</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
+          <div class="d-flex justify-content-center align-items-center">
             <button class="btn btn-rounded btn-light my-2 my-sm-0 mx-2" type="button">
               Sign Up
             </button>
             <button class="btn btn-rounded btn-blue my-2 my-sm-0" type="button">
               Log In
             </button>
-          </form>
+          </div>
         </div>
-      </div>
+      <!-- </div> -->
     </nav>
     <!-- End of Navbar -->
 
