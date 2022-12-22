@@ -268,55 +268,64 @@ include('header.php');
 <!-- End of Public Work -->
 
 <!-- Customers -->
-<section id="customers">
+<section class="splide" id="customers" aria-labelledby="customers">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 col-sm-12">
-        <h1 class="title">Our customers keep talking</h1>
+        <h1 class="title" id="customers">Our Customers Keep Talking</h1>
         <p class="description">Listen to what they say about our product offering right here</p>
       </div>
-      <div class="col-lg-3 col-sm-12 d-flex justify-content-end align-items-center">
-          <button class="btn btn-circle btn-white mr-4 customers-btn">
-            <ion-icon name="arrow-back-outline"></ion-icon>
+      <div class="col-lg-3 col-sm-12">
+        <div class="splide__arrows">
+          <button class="btn btn-circle btn-white mr-3 splide-btn splide__arrow splide__arrow--prev">
+              <ion-icon name="arrow-back-outline"></ion-icon>
           </button>
-          <button class="btn btn-circle btn-white customers-btn">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
+          <button class="btn btn-circle btn-white splide-btn splide__arrow splide__arrow--next">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
           </button>
-      </div>
-      <div class="col-12">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="customer">
-              <div class="customer-icon">
-                <img src="/assets/images/customer-comment-qoute.png" alt="" width="30">
-              </div>
-              <p class="customer-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eius obcaecati quam numquam perferendis quos velit</p>
-              <h5 class="customer-name">Tom Parsons</h5>
-              <small class="customer-designation">VP of Product</small>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="customer">
-              <div class="customer-icon">
-                <img src="/assets/images/customer-comment-qoute.png" alt="" width="30">
-              </div>
-              <p class="customer-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eius obcaecati quam numquam perferendis quos velit</p>
-              <h5 class="customer-name">Tom Parsons</h5>
-              <small class="customer-designation">VP of Product</small>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="customer">
-              <div class="customer-icon">
-                <img src="/assets/images/customer-comment-qoute.png" alt="" width="30">
-              </div>
-              <p class="customer-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eius obcaecati quam numquam perferendis quos velit</p>
-              <h5 class="customer-name">Tom Parsons</h5>
-              <small class="customer-designation">VP of Product</small>
-            </div>
-          </div>
         </div>
       </div>
+    </div>
+    
+    <div class="splide__track">
+      <ul class="splide__list">
+        <!-- Customer -->
+        <li class="splide__slide">
+          <div class="customer">
+            <div class="customer-icon">
+              <img src="/assets/images/customer-comment-qoute.png" alt="" width="30">
+            </div>
+            <p class="customer-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eius obcaecati quam numquam perferendis quos velit</p>
+            <h5 class="customer-name">Tom Parsons</h5>
+            <small class="customer-designation">VP of Product</small>
+          </div>
+        </li>
+        <!-- End Customer -->
+        <!-- Customer -->
+        <li class="splide__slide">
+          <div class="customer">
+            <div class="customer-icon">
+              <img src="/assets/images/customer-comment-qoute.png" alt="" width="30">
+            </div>
+            <p class="customer-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eius obcaecati quam numquam perferendis quos velit</p>
+            <h5 class="customer-name">Tom Parsons</h5>
+            <small class="customer-designation">VP of Product</small>
+          </div>
+        </li>
+        <!-- End Customer -->
+        <!-- Customer -->
+        <li class="splide__slide">
+          <div class="customer">
+            <div class="customer-icon">
+              <img src="/assets/images/customer-comment-qoute.png" alt="" width="30">
+            </div>
+            <p class="customer-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore eius obcaecati quam numquam perferendis quos velit</p>
+            <h5 class="customer-name">Tom Parsons</h5>
+            <small class="customer-designation">VP of Product</small>
+          </div>
+        </li>
+        <!-- End Customer -->
+      </ul>
     </div>
   </div>
 </section>
