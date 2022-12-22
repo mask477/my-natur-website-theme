@@ -35,22 +35,25 @@ include('header.php');
 <!-- End of Hero -->
 
 <!-- Clients -->
-<section id="clients">
-  <div class="container text-center">
-    <h2 class="title">Powering climate programs for</h2>
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="client"></div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="client"></div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="client"></div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="client"></div>
-      </div>
+<section class="splide" id="clients" aria-labelledby="clients-slider">
+  <div class="text-center">
+    <h2 class="title" id="clients-slider">Powering climate programs for</h2>
+    
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <div class="client"></div>
+        </li>
+        <li class="splide__slide">
+          <div class="client"></div>
+        </li>
+        <li class="splide__slide">
+          <div class="client"></div>
+        </li>
+        <li class="splide__slide">
+          <div class="client"></div>
+        </li>
+      </ul>
     </div>
   </div>
 </section>

@@ -20,50 +20,52 @@
 
   <body>
     <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary-dark"
-      id="navbar_top"
-    >
-      <a class="navbar-brand" href="/">
-        <img src="/assets/logo/logo.svg" alt=""/>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/about.php"
-              >About <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="/product.php" class="nav-link">Product</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Blogs</a>
-          </li>
-          <li class="nav-item">
-            <a href="/contact.php" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-rounded btn-light my-2 my-sm-0 mx-2" type="button">
-            Sign Up
-          </button>
-          <button class="btn btn-rounded btn-blue my-2 my-sm-0" type="button">
-            Log In
-          </button>
-        </form>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-dark" id="navbar_top">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="/assets/logo/logo.svg" alt=""/>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/about.php"
+                >About <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/product.php" class="nav-link">Product</a>
+            </li>
+            <li class="nav-item">
+              <a href="/foundations.php" class="nav-link">Foundations</a>
+            </li>
+            <li class="nav-item">
+              <a href="/blogs.php" class="nav-link">News & Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact.php" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-rounded btn-light my-2 my-sm-0 mx-2" type="button">
+              Sign Up
+            </button>
+            <button class="btn btn-rounded btn-blue my-2 my-sm-0" type="button">
+              Log In
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
     <!-- End of Navbar -->
