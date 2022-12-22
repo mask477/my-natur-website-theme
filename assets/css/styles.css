@@ -41,12 +41,17 @@ button {
 }
 
 .btn-rounded {
-  padding-block: 10px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
   border-radius: 120px;
+}
+
+.btn-circle {
+  width: 72px;
+  height: 72px;
+  padding: 0px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-icon {
@@ -54,7 +59,6 @@ button {
   width: 200px;
   padding-inline: 25px;
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   display: flex;
@@ -64,6 +68,11 @@ button {
 .btn-light {
   color: var(--primary-text-color);
   background-color: #b3e2ff;
+  box-shadow: 0 2px 0 rgb(3 49 61 / 33%);
+}
+.btn-white {
+  color: var(--primary-text-color);
+  background-color: white;
   box-shadow: 0 2px 0 rgb(3 49 61 / 33%);
 }
 .btn-blue {
@@ -416,6 +425,42 @@ section#public-work .work .work-title {
   font-size: 16px;
 }
 /* End of Public Work */
+
+/* Customers */
+section#customers {
+  background-color: var(--dark-bg-color);
+}
+
+section#customers .title {
+  font-size: 32px;
+}
+
+section#customers .title,
+section#customers .description {
+  color: white;
+}
+section#customers .customer {
+  position: relative;
+  padding: 40px 30px;
+  background: white;
+  border-radius: 24px;
+  margin: 20px;
+}
+section#customers .customer .customer-icon {
+  margin-bottom: 20px;
+}
+section#customers .customer .customer-comment {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+section#customers .customer .customer-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+section#customers .customer .customer-designation {
+  font-size: 16px;
+}
+/* End of Customers */
 
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {
