@@ -11,4 +11,30 @@ document.addEventListener("DOMContentLoaded", function () {
       document.body.style.paddingTop = "0";
     }
   });
+
+  // Team members slider
+  var teamMembersSlider = new Splide("#teamSlider", {
+    type: "loop",
+    drag: "free",
+    snap: true,
+    perPage: 5,
+    breakpoints: {
+      1340: {
+        perPage: 4,
+      },
+      1040: {
+        perPage: 3,
+      },
+      992: {
+        perPage: 2,
+      },
+      576: {
+        perPage: 1,
+      },
+    },
+    arrows: false,
+    paagination: false,
+  });
+
+  teamMembersSlider.mount();
 });

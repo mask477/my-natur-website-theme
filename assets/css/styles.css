@@ -196,6 +196,7 @@ section {
 section .title {
   font-size: 48px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 section .description {
   font-size: 24px;
@@ -503,7 +504,7 @@ section#change .container .get-started {
 }
 /* End of Change Section */
 
-/* Contact */
+/* Contact Section */
 section#contact {
   background-color: var(--light-bg-color);
 }
@@ -568,9 +569,9 @@ section#contact .contact-form {
   border-radius: 16px;
   padding: 40px;
 }
-/* End of Contact */
+/* End of Contact Section */
 
-/* Product Hero */
+/* Product Hero Section */
 section#product-hero {
   background-color: var(--light-bg-color);
   height: calc(100vh - 60px);
@@ -599,9 +600,6 @@ section#product-hero .backdrop {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  /* background: linear-gradient(216.04deg, #0071b9 13.84%, #002f4d 83.53%); */
-
   z-index: 0;
 }
 section#product-hero .container {
@@ -610,9 +608,9 @@ section#product-hero .container {
   flex-direction: column;
   justify-content: center;
 }
-/* End of Product Hero */
+/* End of Product Hero Section */
 
-/* Product Features */
+/* Product Features Section */
 section#product-features {
   background-color: var(--light-bg-color);
 }
@@ -638,9 +636,9 @@ section#product-features .feature h3.feature-title {
 section#product-features .feature p.feature-description {
   font-size: 24px;
 }
-/* End of Product Features */
+/* End of Product Features Section */
 
-/* Feature Blocks */
+/* Feature Blocks Section */
 section#feature-blocks {
   background-color: var(--light-bg-color);
 }
@@ -682,7 +680,280 @@ section#feature-blocks .feature-block p {
   font-size: 16px;
   text-align: center;
 }
-/* End of Feature Blocks */
+/* End of Feature Blocks Section */
+
+/* About Hero Section */
+section#about-hero {
+  padding-block: 200px;
+  background: url(/assets/images/about-hero-bg.jpg);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-position: 0% 35%;
+  background-size: cover;
+}
+
+section#about-hero h1.title {
+  color: white;
+  font-weight: normal;
+}
+
+section#about-hero h1.title span {
+  font-weight: bold;
+}
+section#about-hero p.description {
+  color: white;
+}
+/* End of About Hero Section */
+
+/* About Mission Section */
+section#about-mission {
+  background-color: var(--light-bg-color);
+}
+section#about-mission .container .row {
+  margin-bottom: 30px;
+}
+section#about-mission h1.title {
+  font-size: 32px;
+}
+section#about-mission h2.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+section#about-mission h2.description {
+  font-size: 24px;
+}
+section#about-mission .content-container {
+  margin-bottom: 30px;
+}
+/* End of About Mission Section */
+
+/* About Our Mission Section */
+section#about-our-mission {
+  background-color: var(--light-bg-color);
+}
+section#about-our-mission h1.title {
+  font-size: 56px;
+  margin-bottom: 50px;
+}
+section#about-our-mission p.description {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--primary-text-gray);
+}
+section#about-our-mission p.description span {
+  color: var(--primary-text-color);
+}
+/* End of About Our Mission Section */
+
+/* About Founders Section */
+section#about-founders {
+}
+section#about-founders h1.title {
+  font-size: 48px;
+}
+section#about-founders .founder {
+  text-align: center;
+  padding: 10px;
+  border-radius: 22px;
+}
+section#about-founders .founder:hover {
+  background: var(--dark-bg-color);
+}
+section#about-founders .founder .founder-image {
+  height: 350px;
+  background: #004f80;
+  border-radius: 22px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: all 0.25s;
+}
+section#about-founders .founder .founder-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section#about-founders .founder:hover .founder-image {
+  height: 270px;
+  transition: all 0.25s;
+}
+section#about-founders .founder .founder-title {
+  font-weight: bold;
+  font-size: 24px;
+  transition: all 0.25s;
+}
+section#about-founders .founder .founder-designation {
+  font-size: 18px;
+  margin-bottom: 10px;
+  transition: all 0.25s;
+}
+section#about-founders .founder .founder-nationality {
+  font-size: 16px;
+  transition: all 0.25s;
+}
+section#about-founders .founder:hover .founder-title,
+section#about-founders .founder:hover .founder-nationality,
+section#about-founders .founder:hover .founder-designation {
+  color: white;
+  transition: all 0.25s;
+}
+section#about-founders .founder .founder-socialmedia {
+  display: hidden;
+  opacity: 0;
+  margin-block: 10px;
+  transition: all 0.25s;
+}
+section#about-founders .founder .founder-socialmedia ion-icon {
+  color: white;
+}
+section#about-founders .founder .founder-socialmedia ion-icon:not(:last-child) {
+  margin-right: 10px;
+}
+section#about-founders .founder .founder-description {
+  display: hidden;
+  opacity: 0;
+  font-size: 20px;
+  color: white;
+  transition: all 0.25s;
+}
+section#about-founders .founder:hover .founder-title,
+section#about-founders .founder:hover .founder-socialmedia,
+section#about-founders .founder:hover .founder-description {
+  display: block;
+  opacity: 1;
+  transition: all 0.25s;
+}
+/* End of About Founders Section */
+
+/* About Team Section */
+section#about-team {
+  /* justify-content: center;
+  align-items: center; */
+  background: var(--light-bg-color);
+}
+
+section#about-team h1.title {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+section#about-team .splide {
+  width: 100%;
+}
+
+section#about-team .member {
+  width: 250px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: auto;
+}
+section#about-team .member .member-image {
+  position: relative;
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--primary-blue);
+  margin-bottom: 30px;
+  transition: all 0.25s;
+}
+section#about-team .member .member-image .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    348.37deg,
+    #3c64b1 17.97%,
+    rgba(255, 255, 255, 0) 79.2%
+  );
+  opacity: 1;
+  transition: all 0.25s;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 20px 40px;
+}
+section#about-team .member .member-image .overlay a {
+  color: white;
+  font-size: 16px;
+}
+
+section#about-team .member .member-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section#about-team .splide li.splide__slide--clone .member .member-image {
+  background-color: var(--primary-green);
+  transition: all 0.25s;
+}
+
+section#about-team
+  .splide
+  li.splide__slide--clone
+  .member
+  .member-image
+  .overlay {
+  opacity: 0;
+  background: linear-gradient(348.37deg, #3c64b1 0%, rgba(255, 255, 255, 0) 0%);
+  transition: all 0.25s;
+}
+section#about-team .member .member-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+section#about-team .member .member-designation {
+  font-size: 16px;
+  color: var(--primary-text-gray);
+}
+/* End of About Team Section */
+
+/* About Projects Section */
+section#about-projects {
+  background-color: var(--dark-bg-color);
+}
+
+section#about-projects .title {
+  font-size: 32px;
+  color: white;
+}
+
+section#about-projects .projects-btn {
+  font-size: 30px;
+}
+section#about-projects .project {
+  position: relative;
+  padding: 40px 30px;
+  background: white;
+  border-radius: 24px;
+  margin: 20px;
+}
+section#about-projects .project .project-icon {
+  margin-bottom: 20px;
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+  background: var(--primary-green);
+}
+section#about-projects .project h1.project-fund {
+  font-weight: bold;
+  font-size: 24px;
+}
+section#about-projects .project p.project-description {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+section#about-projects .project p.project-message {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+/* End of Projects Section */
 
 /* Bootstrap Media Queries */
 @media (min-width: 576px) {
