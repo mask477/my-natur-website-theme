@@ -190,7 +190,7 @@ section {
   padding-block: 120px;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   overflow: hidden;
 }
 section .title {
@@ -200,6 +200,27 @@ section .title {
 }
 section .description {
   font-size: 24px;
+}
+
+section.splide .splide__arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.splide .splide__arrows .splide__arrow.splide__arrow--prev,
+section.splide .splide__arrows .splide__arrow.splide__arrow--next {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+section.splide .splide__arrows .splide__arrow {
+  position: static;
+  transform: none;
+}
+
+section.splide .splide-btn {
+  font-size: 30px;
 }
 /* End Section */
 
@@ -871,13 +892,18 @@ section#about-team .member .member-image .overlay {
     #3c64b1 17.97%,
     rgba(255, 255, 255, 0) 79.2%
   );
-  opacity: 1;
-  transition: all 0.25s;
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
   padding: 20px 40px;
+  opacity: 0;
+  transition: all 0.25s;
 }
+section#about-team .splide li.is-active .member .member-image .overlay {
+  opacity: 1;
+  transition: all 0.25s;
+}
+
 section#about-team .member .member-image .overlay a {
   color: white;
   font-size: 16px;
@@ -891,17 +917,6 @@ section#about-team .member .member-image img {
 
 section#about-team .splide li.splide__slide--clone .member .member-image {
   background-color: var(--primary-green);
-  transition: all 0.25s;
-}
-
-section#about-team
-  .splide
-  li.splide__slide--clone
-  .member
-  .member-image
-  .overlay {
-  opacity: 0;
-  background: linear-gradient(348.37deg, #3c64b1 0%, rgba(255, 255, 255, 0) 0%);
   transition: all 0.25s;
 }
 section#about-team .member .member-title {
@@ -919,20 +934,22 @@ section#about-projects {
   background-color: var(--dark-bg-color);
 }
 
+section#about-projects .row {
+  margin-bottom: 40px;
+}
+
 section#about-projects .title {
   font-size: 32px;
   color: white;
 }
 
-section#about-projects .projects-btn {
-  font-size: 30px;
-}
 section#about-projects .project {
   position: relative;
+  width: 80%;
   padding: 40px 30px;
   background: white;
   border-radius: 24px;
-  margin: 20px;
+  margin: auto;
 }
 section#about-projects .project .project-icon {
   margin-bottom: 20px;

@@ -33,8 +33,29 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
     arrows: false,
-    paagination: false,
+    pagination: false,
+    cloneStatus: true,
   });
 
   teamMembersSlider.mount();
+  // Team members slider
+  var projectsSlider = new Splide("#about-projects", {
+    type: "loop",
+    drag: "free",
+    snap: true,
+    perPage: 3,
+    perMove: 1,
+    breakpoints: {
+      1260: {
+        perPage: 2,
+      },
+      850: {
+        perPage: 1,
+      },
+    },
+    arrows: true,
+    pagination: false,
+  });
+
+  projectsSlider.mount();
 });
