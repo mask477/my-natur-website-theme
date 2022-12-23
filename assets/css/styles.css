@@ -290,7 +290,7 @@ section#hero .banner-container .container img:after {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: red;
+  background-color: var(--light-bg-color);
   filter: blur(103.353px);
 }
 /* End of Hero Section */
@@ -450,7 +450,6 @@ section#members .member .member-avatar {
   border-radius: 50%;
   margin-inline: 20px;
   border: 2px solid var(--light-blue);
-  flex: 1;
 }
 section#members .member p.member-comment {
   background-color: white;
