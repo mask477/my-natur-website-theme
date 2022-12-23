@@ -323,10 +323,13 @@ section#features .title {
 
 section#features .image-container {
   position: relative;
-  width: 550px;
+  width: 90%;
   aspect-ratio: 1;
   border-radius: 220px;
-  background: var(--primary-light);
+  background-repeat: no-repeat !important;
+  /* background-attachment: fixed !important; */
+  background-position: center !important;
+  background-size: cover !important;
   margin: auto;
 }
 section#features .image-container .stat {
@@ -356,13 +359,13 @@ section#features .image-container .stat .stat-icon ion-icon {
 }
 section#features .image-container .stat:first-child {
   top: 50px;
-  right: -50px;
+  right: -20px;
   color: white;
 }
 section#features .image-container .stat:last-child {
   background: white;
   bottom: 50px;
-  left: -50px;
+  left: -20px;
 }
 section#features .features-continer {
   margin-block: 40px;

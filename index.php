@@ -126,7 +126,7 @@ include('header.php');
         </div>
       </div>
       <div class="col-lg-6 col-md-12">
-        <div class="image-container">
+        <div class="image-container" style="background: url(/assets/images/features-image.jpg);">
           <div class="stat">
             <div class="stat-icon">
               <ion-icon name="trending-up"></ion-icon>
