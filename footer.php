@@ -8,7 +8,7 @@
           <div class="col-md-6 col-sm-12">
             <div class="footer-address">
               <div class="footer-logo">
-                <a href="/"><img src="/assets/logo/logo.svg" alt="" /></a>
+                <a href="/"><img src="/assets/logo/logo.png" alt="" height="50"/></a>
               </div>
               <p>32 - 44 upper Rupert Street</p>
               <p>W12 8DY Kensington</p>

@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary-dark" id="navbar_top">
       <!-- <div class="container"> -->
         <a class="navbar-brand" href="/">
-          <img src="/assets/logo/logo.svg" alt=""/>
+          <img src="/assets/logo/logo.png" alt="" height="32"/>
         </a>
         <button
           class="navbar-toggler"
